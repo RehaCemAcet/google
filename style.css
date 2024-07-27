@@ -1,0 +1,116 @@
+/* Genel stil ayarları */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f3f4;
+  text-align: center;
+}
+
+/* Üst menü */
+.top-nav {
+  background-color: #fff;
+  border-bottom: 1px solid #dfe1e5;
+  padding: 10px 0;
+}
+
+.top-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.top-nav li {
+  margin: 0 15px;
+}
+
+.top-nav a {
+  color: #5f6368;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Ana içerik */
+.main-content {
+  margin: 100px auto;
+  max-width: 600px;
+}
+
+.logo {
+  width: 272px;
+  height: 92px;
+  margin-bottom: 20px;
+}
+
+/* Arama kutusu */
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 584px;
+  padding: 10px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.search-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  margin: 0 6px;
+  border: 1px solid #dfe1e5;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  color: #5f6368;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #f1f3f4;
+}
+
+/* Alt bilgi */
+footer {
+  background-color: #fff;
+  border-top: 1px solid #dfe1e5;
+  padding: 20px 0;
+}
+
+.footer-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-nav li {
+  margin: 0 10px;
+}
+
+.footer-nav a {
+  color: #5f6368;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
